@@ -1,0 +1,193 @@
+﻿body {
+}
+
+.logo {
+    border-radius: 50%;
+    background-color: white;
+    opacity: 1;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    flex: 0 0 50px;
+}
+.logo_img {
+    height: 100%;
+}
+
+#header .logo img {
+    width: 100%;
+    padding: 2px;
+    opacity: 1;
+    position: relative;
+}
+.logo_img a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/*hero*/
+#hero {
+    height: 676px;
+}
+
+.hero-container p {
+    color: #eee;
+    font-size: 20px;
+}
+
+#hero h2 {
+    font-size: 25px;
+}
+
+#myVideo {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#hero .hero-container {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+}
+/*about*/
+
+.about_content *, .about_site_content * {
+    width: 100%;
+}
+
+.about_site_content h3 {
+    font-size: 18px;
+}
+
+.about_site_content h2 {
+    font-size: 32px;
+}
+
+.letter .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    border: 2px solid #85b0be;
+    color: #052c3f;
+}
+
+.testimonials .testimonial-item p {
+font-size: 18px;
+}
+
+
+/*ILAIS OFFICERS*/
+
+.img-fluid {
+    width: 100%;
+}
+
+.team .member {
+    width: 100%;
+}
+
+
+.member-img:hover .div_class_overlay {
+    opacity: 0.7;
+}
+
+.div_class_overlay .text {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    margin: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.div_class_overlay P {
+    color: white;
+    margin: 20px;
+    text-align: left;
+}
+
+
+.div_class_overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: #052c3f;
+}
+
+
+/*PREVIOUS ILAIS LEADERSHIP TEAM MEMBERS*/
+
+.col.icon-box {
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+#founder .col.icon-box {
+    width: 33.333333333%;
+    max-width: 33.333333333333%;
+}
+
+#services h4 {
+    font-size: 22px;
+}
+
+#services h6 {
+    font-size: 18px;
+}
+
+.services .icon {
+    height: 60px;
+    width: 60px;
+}
+
+/*CONTACT*/
+
+#footer .footer-top .justify-content-center a {
+    font-size: 16px;
+    display: inline-block;
+    background: #85b0be;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 240px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+#footer .justify-content-center h3 {
+    padding-bottom: 20px;
+}
+
+#footer .footer-top {
+}
+
+#footer {
+    background: url('../img/datascience.jpg') top center no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,24 @@
+﻿body {
+}
+
+section {
+    padding-top: 150px;
+}
+
+.portfolio {
+    padding-top: 60px;
+}
+
+#pricing img
+{
+    width:100%;
+}
+
+.pricing .box {
+    background: #052c3f;
+
+}
+
+.mt-4 {
+    margin: auto;
+}
